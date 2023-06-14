@@ -7,6 +7,11 @@ body {
   background-color: #fff;
   }
 
+/* set all image content to black and white */
+img {
+  filter: grayscale(100%);
+}
+
 .container {
   position: relative;
   background-color: white;
@@ -24,16 +29,17 @@ body {
   position: absolute;
 }
 
+/* position of all the drop up menus with ids: #X */
 #zp { top: 78%; left: 60%;}
 #esl {top: 45%; left: 20%;}
-#cm {top: 68%; left: 70%;}
+#cm {top: 68%; left: 78%;}
 #sm {top: 25%; left: 30%;}
 #seo {top: 35%; left: 2%;}
-#bb {top: 90%; left: 70%;}
+#bb {top: 92%; left: 70%;}
 #cc {top: 85%; left: 45%;}
 #lpp {top: 50%; left: 20%;}
-#ss {top: 10%; left: 75%;}
-#ssc {top: 5%; left: 75%;}
+#ss {top: 15%; left: 75%;}
+#ssc {top: 10%; left: 75%;}
 #eb {top: 20%; left: 30%;}
 
 .dropup-button {
@@ -54,9 +60,9 @@ body {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  bottom: calc(100% + 2px); /* Adjust the value as per your preference */
+  bottom: calc(100% + 2px); 
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); /* transform the image content to go up */
   }
   
 .dropup:hover .dropup-content {
