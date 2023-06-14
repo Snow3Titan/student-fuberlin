@@ -1,58 +1,65 @@
 body {
-    text-align:center;
-    font-family: SourceSansPro,Arial,Helvetica,sans-serif;
-    font-size: SourceSansPro,Arial,Helvetica,sans-serif;
-    line-height: 22.5px;
-    color: #000;
-    background-color: #fff;
+  text-align:center;
+  font-family: SourceSansPro,Arial,Helvetica,sans-serif;
+  font-size: SourceSansPro,Arial,Helvetica,sans-serif;
+  line-height: 22.5px;
+  color: #000;
+  background-color: #fff;
   }
 
-  .container {
-    display: block;
-    position: fixed;
-    background-color: white;
-    top: 0;
-    left: -50%;
-    width: 100%;
-    height: auto;
+.container {
+  position: relative;
+  background-color: white;
   }
 
-.background-image{
-  position: absolute;
-  background-repeat: no-repeat;
+.background-image {
   width: 100%;
-  height: auto;
+  padding-bottom: 60%;
+  background-image: url("images/campus-map-sketch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
-.button {
-    display: block;
-    padding: 3px 6px;
-    background-color: white;
-    color: #000;
-    text-decoration: none;
-    border: 1px solid black;
-    font-weight: bold;
-    position: fixed;
-  }
-  
-  .button:hover {
-    background-color: #ccff00;
-    color: #000;
-  } 
-  
-  .button:active {
-    background-color: white;
-    color: #000
-  }
+.dropup {
+  position: absolute;
+}
 
-  #button1 { top: 35%; left: 25%;}
-  #button2 {top: 30%; left: 6%;}
-  #button3 {top: 70%; left: 12%;}
-  #button4 {top: 15%; left: 20%;}
-  #button5 {top: 50%; left: 25%;}
-  #button6 {top: 60%; left: 6%;}
-  #button7 {top: 80%; left: 70%;}
-  #button8 {top: 75%; left: 12%;}
-  #button9 {top: 5%; left: 75%;}
-  #button10 {top: 45%; left: 25%;}
-  #button11 {top: 15%; left: 75%;}
+#zp { top: 78%; left: 60%;}
+#esl {top: 45%; left: 20%;}
+#cm {top: 68%; left: 70%;}
+#sm {top: 25%; left: 30%;}
+#seo {top: 35%; left: 2%;}
+#bb {top: 90%; left: 70%;}
+#cc {top: 85%; left: 45%;}
+#lpp {top: 50%; left: 20%;}
+#ss {top: 10%; left: 75%;}
+#ssc {top: 5%; left: 75%;}
+#eb {top: 20%; left: 30%;}
+
+.dropup-button {
+  padding: 3px 6px;
+  background-color: white;
+  color: #000;
+  border: 1px solid #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dropup:hover .dropup-button{
+  background-color: #ccff00;
+  color: #000;
+}
+  
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  bottom: calc(100% + 2px); /* Adjust the value as per your preference */
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  
+.dropup:hover .dropup-content {
+  display: block;
+} 
+
