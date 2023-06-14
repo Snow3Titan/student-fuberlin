@@ -41,6 +41,9 @@ img {
 #ss {top: 15%; left: 75%;}
 #ssc {top: 10%; left: 75%;}
 #eb {top: 20%; left: 30%;}
+#gcl {top: 10%; left: 8%;}
+#cd {top: 1%; left: 52%;}
+
 
 .dropup-button {
   padding: 3px 6px;
@@ -66,6 +69,16 @@ img {
   }
   
 .dropup:hover .dropup-content {
+  display: block;
+} 
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  }
+  
+.dropup:hover .dropdown-content {
   display: block;
 } 
 
