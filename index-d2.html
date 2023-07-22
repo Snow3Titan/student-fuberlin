@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <title>FU-Orientation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Louis Müller">
+  <link rel = "stylesheet" href = "styles-d2.css"> 
+  <script src="script/functions-d2.js"></script>
+  <script src="script/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+  <h1>Orientation Webpage for New Students</h1>
+  <p>
+    This site is ment for the use of new master students 
+    studying at the university of freie universitaet berlin the master planetary sciences and space exploration.
+  </p>
+
+  <div style="position: relative;">
+    <img src="images/campus-lankwitz-sketch.jpg" alt="campus-lankwitz" usemap="#linkmap1" id="scaled-image"/>
+    <div id="background-image-container"></div>
+  </div>
+
+  <map name="linkmap1" id="scaled-map">
+    <!-- Coordinates will be updated by the JavaScript function -->
+    <area shape="poly" coords="1024,378,1104,355,1138,468,1032,521,1001,453,1038,435" data-background-image="images/houseA.jpg" onmouseover="showBackgroundImage(this)" onmouseout="hideBackgroundImage()">
+    <area shape="poly" coords="1920,302,2058,331,2064,382,2255,415,2265,391,2355,414,2339,531,1910,448" data-background-image="images/houseD.jpg" onmouseover="showBackgroundImage(this)" onmouseout="hideBackgroundImage()">
+    <area shape="poly" coords="1444,926,1666,875,1707,1005,1484,1070" data-background-image="images/houseO.jpg" onmouseover="showBackgroundImage(this)" onmouseout="hideBackgroundImage()">
+  </map>
+
+  <script> imageMapResize(); </script>
+
+</body>
+
+</html> 
+
+</body>
+
+</html>

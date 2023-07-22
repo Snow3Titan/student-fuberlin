@@ -1,8 +1,14 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en-US">
 
 <head>
   <title>FU-Orientation</title>
-  <link rel = "stylesheet" href = "style-sheet.css"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Louis Müller">
+  <link rel="stylesheet" href="styles.css"> 
+  <script src="script/functions-d2.js"></script>
 </head>
 
 <body>
@@ -14,24 +20,25 @@
 </body>
 
 <div class="container">
+  
   <div class="background-image"></div>
-
-  <div class="dropup" id = "ssc">
-    <a href="https://www.fu-berlin.de/en/einrichtungen/verwaltung/abt-5/5a-studang/studverw/index.html" class = "dropup-button">STUDENT SERVICE CENTER</a>
+  
+  <div class="dropup" id = "ssc" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-6.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://www.fu-berlin.de/en/einrichtungen/verwaltung/abt-5/5a-studang/studverw/index.html" class = "dropup-button">student service center</a>
     <div class="dropup-content">
       <img src="images/ssc.jpg" alt="campus management" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "ss">
-    <a href="https://gate.ecampus.fu-berlin.de/sap/bc/ui5_ui5/sap/HER_MYREQUEST/" class = "dropup-button">SELF SERVICES</a>
+  <div class="dropup" id = "ss" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-5.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://gate.ecampus.fu-berlin.de/sap/bc/ui5_ui5/sap/HER_MYREQUEST/" class = "dropup-button"> self services</a>
     <div class="dropdown-content">
       <img src="images/ss.JPG" alt="campus management" width="160" height="auto">
     </div>
   </div>
 
   <div class="dropup" id = "cd">
-    <a href="https://www.fu-berlin.de/redaktion/orientierung/lankwitz/index.html" class = "dropup-button">CAMPUS DAHLEM</a>
+    <a href="https://www.fu-berlin.de/redaktion/orientierung/dahlem/index.html" class = "dropup-button">CAMPUS DAHLEM</a>
     <div class="dropdown-content">
       <img src="images/lageplan-gesamt.png" alt="campus dahlem" width="160" height="auto">
     </div>
@@ -44,68 +51,72 @@
     </div>
   </div>
 
-  <div class="dropup" id = "eb">
-    <a href="https://www.geo.fu-berlin.de/fachbereich/gremien/pruefungsausschuesse/pa_planetary-sciences.html" class = "dropup-button">EXAMINATIONS BOARD </a>
+  <div class="dropup" id = "eb" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-3.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://www.geo.fu-berlin.de/fachbereich/gremien/pruefungsausschuesse/pa_planetary-sciences.html" class = "dropup-button">examinations board</a>
     <div class="dropup-content">
       <img src="images/eb.png" alt="campus management" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "sm">
-    <a href="https://www.geo.fu-berlin.de/en/geol/fachrichtungen/planet/staff/team/mueller/index.html" class = "dropup-button">STUDENT MENTOR</a>
+  <div class="dropup" id = "sm" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-3.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://www.geo.fu-berlin.de/en/geol/fachrichtungen/planet/staff/team/mueller/index.html" class = "dropup-button">student mentor</a>
     <div class="dropup-content">
       <img src="images/sm.png" alt="campus management" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "seo">
-    <a href="https://www.geo.fu-berlin.de/studium/studium_und_pruefung/studium_und_pruefung/index.html" class = "dropup-button">STUDY AND <br>EXAMINATIONS OFFICE</a>
+  <div class="dropup" id = "seo" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-2.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://www.geo.fu-berlin.de/studium/studium_und_pruefung/studium_und_pruefung/index.html" class = "dropup-button"> study and examinations office</a>
     <div class="dropup-content">
       <img src="images/standort lankwitz.PNG" alt="campus management" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "esl">
-    <a href="https://www.geo.fu-berlin.de/en/bibliotheken/geo/index.html" class = "dropup-button" id = "esl">EARTH SCIENCES LIBRARY</a>
+  <div class="dropup" id = "esl" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-4.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://www.geo.fu-berlin.de/en/bibliotheken/geo/index.html" class = "dropup-button" id = "esl">earth sciences library</a>
     <div class="dropup-content">
       <img src="images/esl.png" alt="earth sciences library" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "lpp">
-    <a href="https://fu-berlin.primo.exlibrisgroup.com/discovery/search?vid=49KOBV_FUB:FUB&lang=en" class = "dropup-button">LIBRARY PORTAL PRIMO</a>
+  <div class="dropup" id = "lpp" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-4.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://fu-berlin.primo.exlibrisgroup.com/discovery/search?vid=49KOBV_FUB:FUB&lang=en" class = "dropup-button">library portal primo</a>
     <div class="dropdown-content">
       <img src="images/lpp.png" alt="campus management" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "cm">
-    <a href="https://lb.ecampus.fu-berlin.de/sap(bD1kZSZjPTEwMQ==)/bc/bsp/sap/zcm_bsp_mycm/default.do" class = "dropup-button">CAMPUS MANAGEMENT</a>
+  <div class="dropup" id = "cm" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-5.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://lb.ecampus.fu-berlin.de/sap(bD1kZSZjPTEwMQ==)/bc/bsp/sap/zcm_bsp_mycm/default.do" class = "dropup-button">campus management</a>
     <div class="dropup-content">
       <img src="images/cm.JPG" alt="campus management" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "zp">
-    <a href="https://portal.zedat.fu-berlin.de/services/index.php?w=1" class="dropup-button">ZEDAT PORTAL</a>
+  <div class="dropup" id = "zp" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-5.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://portal.zedat.fu-berlin.de/services/index.php?w=1" class="dropup-button">zedat portal</a>
     <div class="dropup-content">
       <img src="images/zp.JPG" alt="zedat portal" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "cc">
-    <a href="https://www.fu-berlin.de/vv/en/modul?id=757970&sm=682860" class = "dropup-button">COURSE CATALOGE</a> 
+  <div class="dropup" id = "cc" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-5.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://www.fu-berlin.de/vv/en/modul?id=757970&sm=682860" class = "dropup-button">course cataloge</a> 
     <div class="dropup-content">
       <img src="images/cc.JPG" alt="campus management" width="160" height="auto">
     </div>
   </div>
 
-  <div class="dropup" id = "bb">
-    <a href="https://fu-berlin.blackboard.com/" class = "dropup-button">BLACKBOARD</a>
+  <div class="dropup" id = "bb" onmouseover="changeBackgroundImage('images/background/campus-lankwitz-sketch-5.jpg')" onmouseout="resetBackgroundImage()">
+    <a href="https://fu-berlin.blackboard.com/" class = "dropup-button">blackboard</a>
     <div class="dropup-content">
       <img src="images/bb.JPG" alt="campus management" width="160" height="auto">
     </div>
   </div>
+
+  <script>
+    
+  </script>
 
 </div>
 

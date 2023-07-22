@@ -1,0 +1,20 @@
+To Do List for the Website:
+
+- Ask Theresa what names she would change and how (if there is an english issue).
+- add legend to the background image to specify drawing links
+- redraw the background sketch for almost each link to:
+	- highlight the buildings
+	- add a legend in each image (physical path, virtual path, building, and website)
+-change the blackboard image to an actual blackboard
+-change foto of "study and examinations office" to a foto of the building
+-change the virtual links to the actual miniature website screenshots
+
+-add mensa divs at lankwitz and dahlem (link, foto, highlight, ...)
+-add zedat building divs (link, foto, highlight, ...)
+
+-get usability feedback for different browsers and mobile and desktop widths
+-change photo for examination board and student mentor
+-highlight the campus areas when hovering on the buttons
+-create a virtual connection line to the library primo button and chang its position
+-implement the same webpage in german
+	

@@ -1,0 +1,90 @@
+body {
+    text-align:center;
+    font-family: SourceSansPro,Arial,Helvetica,sans-serif;
+    font-size: SourceSansPro,Arial,Helvetica,sans-serif;
+    color: #000;
+    background-color: #fff;
+  }
+
+  h1 {
+    background-color: #ccff00;
+  }
+  
+  /* set all image content to black and white */
+  img {
+    filter: grayscale(100%);
+    outline: 1pt solid black;
+    opacity: 1;
+  }
+  
+  .container {
+    position: relative;
+    background-color: white;
+    }
+  
+  .background-image {
+    width: 100%;
+    padding-bottom: 60%;
+    background-image: url("images/background/campus-lankwitz-sketch-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  
+  .dropup {
+    position: absolute;
+  }
+  
+  /* position of all the drop up menus with ids: #X */
+  #zp { top: 78%; left: 60%;}
+  #esl {top: 45%; left: 24%;}
+  #cm {top: 65%; left: 78%;}
+  #sm {top: 25%; left: 30%;}
+  #seo {top: 35%; left: 7%;}
+  #bb {top: 92%; left: 70%;}
+  #cc {top: 85%; left: 45%;}
+  #lpp {top: 50%; left: 24%;}
+  #ss {top: 15%; left: 75%;}
+  #ssc {top: 10%; left: 75%;}
+  #eb {top: 20%; left: 30%;}
+  #gcl {top: 8%; left: 8%;}
+  #cd {top: 0%; left: 52%;}
+  
+  
+  .dropup-button {
+    padding: 3px 6px;
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .dropup:hover .dropup-button{
+    background-color: #ccff00;
+    color: #000;
+  }
+    
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    pointer-events: none;
+    bottom: calc(100% + 2px); 
+    left: 50%;
+    transform: translateX(-50%); /* transform the image content to go up */
+    }
+    
+  .dropup:hover .dropup-content {
+    display: block;
+  } 
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    pointer-events: none;
+    }
+    
+  .dropup:hover .dropdown-content {
+    display: block;
+  } 
